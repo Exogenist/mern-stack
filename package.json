@@ -1,0 +1,22 @@
+{
+    "name": "mern-stack",
+    "version": "1.0.0",
+    "description": "social network for professionals",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Exogenist/mern-stack.git"
+    },
+    "author": "Swainson Holness",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Exogenist/mern-stack/issues"
+    },
+    "homepage": "https://github.com/Exogenist/mern-stack#readme",
+    "devDependencies": {
+        "nodemon": "^1.17.5"
+    }
+}
