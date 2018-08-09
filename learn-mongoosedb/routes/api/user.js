@@ -15,7 +15,7 @@ router.get('/t1', (req, res) => {
 // @desc    Register user
 // @access  Public
 router.get('/register', (req, res) => {
-    res.json({msg: "user works"})
+    User.findOne({email: req.body.email})
 });
 
 module.exports = router

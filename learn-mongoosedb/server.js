@@ -1,6 +1,7 @@
 //connecting to express
 const express = require('express');
 const app = express();
+const bodyParser = require('body-parser');
 
 
 const posts = require('./routes/api/posts.js');
